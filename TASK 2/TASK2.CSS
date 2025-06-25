@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #ffe0f7, #ffeaff);
+  color: #4b004b;
+}
+
+header {
+  background: linear-gradient(to right, #fcd4f2, #ffd6f7);
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #d4af37;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #a6007e;
+  font-size: 2rem;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #660066;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #d400a6;
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20231229/pngtree-aesthetic-watercolor-lavender-background-with-deep-violet-aquarelle-backdrop-and-paper-image_13864579.png') no-repeat center center/cover; /* Replace this image path */
+  padding: 10em 4em;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 3em;
+}
+
+.product-card {
+  background: url('images/product-bg.jpg') no-repeat center center/cover; /* You can use a subtle image background */
+  padding: 1em;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.product-card h3 {
+  margin: 0.5em 0;
+  color: #8e008e;
+}
+
+.product-card p {
+  color: #333;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  padding: 0.6em 1.2em;
+  background: linear-gradient(to right, #ff66cc, #d400a6);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #ff99cc, #b30086);
+}
+
+footer {
+  background: linear-gradient(to right, #fcd4f2, #ffd6f7);
+  text-align: center;
+  padding: 2em;
+  font-size: 1rem;
+  border-top: 2px solid #d4af37;
+  color: #660066;
+}
